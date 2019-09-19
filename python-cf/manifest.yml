@@ -1,0 +1,7 @@
+---
+applications:
+- name: mypythonapp
+  host: pytutorial
+  path: .
+  memory: 128M
+  command: python server.py

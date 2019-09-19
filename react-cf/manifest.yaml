@@ -1,0 +1,7 @@
+---
+applications:
+- name: myreactapp
+  random-route: true
+  path: myapp/build
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  memory: 128M
